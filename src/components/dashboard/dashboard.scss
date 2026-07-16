@@ -1,0 +1,32 @@
+.dashboard {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 24px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100vh;
+
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    min-height: 600px;
+  }
+
+  &__triangle,
+  &__stations,
+  &__summary,
+  &__stages {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  &__stages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
