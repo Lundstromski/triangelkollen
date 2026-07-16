@@ -1,0 +1,198 @@
+{
+  "trail": {
+    "id": "jamtlandstriangeln",
+    "name": "Jämtlandstriangeln",
+    "length": 47,
+    "description": "En av Sveriges mest populära fjällvandringar.",
+    "lastUpdated": "2026-07-16",
+    "visitorPressure": [
+      {
+        "from": "01-01",
+        "to": "02-18",
+        "level": "Låg",
+        "color": "success"
+      },
+      {
+        "from": "02-19",
+        "to": "04-19",
+        "level": "Medel",
+        "color": "warning"
+      },
+      {
+        "from": "04-20",
+        "to": "06-17",
+        "level": "Låg",
+        "color": "success"
+      },
+      {
+        "from": "06-18",
+        "to": "07-14",
+        "level": "Medel",
+        "color": "warning"
+      },
+      {
+        "from": "07-15",
+        "to": "08-10",
+        "level": "Hög",
+        "color": "orange"
+      },
+      {
+        "from": "08-11",
+        "to": "08-24",
+        "level": "Mycket hög",
+        "color": "danger"
+      },
+      {
+        "from": "08-25",
+        "to": "09-14",
+        "level": "Hög",
+        "color": "orange"
+      },
+      {
+        "from": "09-15",
+        "to": "10-04",
+        "level": "Medel",
+        "color": "warning"
+      },
+      {
+        "from": "10-05",
+        "to": "12-31",
+        "level": "Låg",
+        "color": "success"
+      }
+    ]
+  },
+  "stations": [
+    {
+      "id": "storulvan",
+      "name": "Storulvån",
+      "elevation": 730,
+      "coordinates": {
+        "lat": 63.1693,
+        "lon": 12.3646
+      },
+      "services": {
+        "restaurant": {
+          "available": true
+        },
+        "shop": {
+          "available": true,
+          "type": "Stor butik"
+        },
+        "accommodation": {
+          "available": true,
+          "emergencyRoom": true
+        }
+      },
+      "openingPeriods": [
+        {
+          "season": "winter",
+          "from": "02-19",
+          "to": "04-19"
+        },
+        {
+          "season": "summer",
+          "from": "06-18",
+          "to": "10-04"
+        }
+      ]
+    },
+    {
+      "id": "sylarna",
+      "name": "Sylarna",
+      "elevation": 1035,
+      "coordinates": {
+        "lat": 63.0449,
+        "lon": 12.3047
+      },
+      "services": {
+        "restaurant": {
+          "available": true
+        },
+        "shop": {
+          "available": true,
+          "type": "Mindre butik"
+        },
+        "accommodation": {
+          "available": true,
+          "emergencyRoom": true
+        }
+      },
+      "openingPeriods": [
+        {
+          "season": "winter",
+          "from": "02-20",
+          "to": "04-19"
+        },
+        {
+          "season": "summer",
+          "from": "07-15",
+          "to": "09-27"
+        }
+      ]
+    },
+    {
+      "id": "blahammaren",
+      "name": "Blåhammaren",
+      "elevation": 1086,
+      "coordinates": {
+        "lat": 63.1558,
+        "lon": 12.1718
+      },
+      "services": {
+        "restaurant": {
+          "available": true
+        },
+        "shop": {
+          "available": true,
+          "type": "Begränsad kiosk"
+        },
+        "accommodation": {
+          "available": true,
+          "emergencyRoom": true
+        }
+      },
+      "openingPeriods": [
+        {
+          "season": "winter",
+          "from": "02-20",
+          "to": "04-19"
+        },
+        {
+          "season": "summer",
+          "from": "07-01",
+          "to": "09-27"
+        }
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "storulvan-sylarna",
+      "from": "storulvan",
+      "to": "sylarna",
+      "distance": 16,
+      "estimatedTime": "5-7 h",
+      "difficulty": "Medel",
+      "warning": "Vattendrag kan behöva vadas vid högt vattenstånd."
+    },
+    {
+      "id": "sylarna-blahammaren",
+      "from": "sylarna",
+      "to": "blahammaren",
+      "distance": 19,
+      "estimatedTime": "6-8 h",
+      "difficulty": "Medel",
+      "warning": "Längsta etappen med flera exponerade partier."
+    },
+    {
+      "id": "blahammaren-storulvan",
+      "from": "blahammaren",
+      "to": "storulvan",
+      "distance": 12,
+      "estimatedTime": "4-5 h",
+      "difficulty": "Lätt",
+      "warning": "Relativt lättvandrad etapp tillbaka till Storulvån."
+    }
+  ]
+}
