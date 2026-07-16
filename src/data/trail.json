@@ -3,7 +3,7 @@
     "id": "jamtlandstriangeln",
     "name": "Jämtlandstriangeln",
     "length": 47,
-    "description": "En av Sveriges mest populära fjällvandringar.",
+    "description": "Allt du behöver veta om Jämtlandstriangeln, samlad på ett ställe",
     "lastUpdated": "2026-07-16",
     "visitorPressure": [
       {
@@ -141,7 +141,7 @@
       },
       "services": {
         "restaurant": {
-          "available": true
+          "available": false
         },
         "shop": {
           "available": true,
@@ -169,30 +169,30 @@
   "stages": [
     {
       "id": "storulvan-sylarna",
-      "from": "storulvan",
-      "to": "sylarna",
+      "from": "Storulvån",
+      "to": "Sylarna",
       "distance": 16,
       "estimatedTime": "5-7 h",
       "difficulty": "Medel",
-      "warning": "Vattendrag kan behöva vadas vid högt vattenstånd."
+      "warning": "Lång hängbro över en å"
     },
     {
       "id": "sylarna-blahammaren",
-      "from": "sylarna",
-      "to": "blahammaren",
+      "from": "Sylarna",
+      "to": "Blåhammaren",
       "distance": 19,
       "estimatedTime": "6-8 h",
       "difficulty": "Medel",
-      "warning": "Längsta etappen med flera exponerade partier."
+      "warning": "Längsta etappen, en större bäck som kan kräva att man vadar"
     },
     {
       "id": "blahammaren-storulvan",
-      "from": "blahammaren",
-      "to": "storulvan",
+      "from": "Blåhammaren",
+      "to": "Storulvån",
       "distance": 12,
       "estimatedTime": "4-5 h",
       "difficulty": "Lätt",
-      "warning": "Relativt lättvandrad etapp tillbaka till Storulvån."
+      "warning": "Vadning krävs vid högt vatten, utplacerade cementblock i vattnet."
     }
   ]
 }
